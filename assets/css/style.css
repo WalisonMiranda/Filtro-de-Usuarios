@@ -1,0 +1,68 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 10px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+}
+
+.search-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.input-text {
+    margin-left: 10px;
+    width: 100px;
+    height: 24px;
+}
+
+.btn {
+    margin-left: 7px; 
+    
+}
+
+.results-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.tab-users{
+
+    margin-right: 7px;
+}
+
+.tab-statistics {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+
+.tab {
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    width: 600px;
+}
+
+.users {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

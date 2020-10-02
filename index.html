@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <title>Filtro de Usuários</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pesquisa de usuários</h1>
+        <div id="filterTab" class="search-list">
+            <input class="input-text" type="text" placeholder="" onclick="handleButton()">
+            <a class="waves-effect waves-light btn">BUSCAR</a>
+        </div>
+        <div class="results-container">
+            <div id="tabUsers" class="tab-users tab">
+                <h2><span id="totalUsersFound"></span> Usuário(s)<br>
+                encontrado(s)</h2>
+                <ul>
+                    
+                </ul>
+            </div>
+            <div id="tabStatistics" class="tab-statistics tab">
+                <h2>Estatísticas</h2>
+                <ul>
+                    <li><h6>Sexo masculino: <span id="allMaleGender"></span></h6></li>
+                    <li><h6>Sexo feminino: <span id="allFemaleGender"></span></h6></li>
+                    <li><h6>Soma das idades: <span id="sumAges"></span></h6></li>
+                    <li><h6>Média das idades: <span id="medAges"></span></h6></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+</body>
+
+</html>
